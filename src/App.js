@@ -4,8 +4,7 @@ import { Box, ChakraProvider } from '@chakra-ui/react'
 import { Button, ButtonGroup } from '@chakra-ui/react'
 import { Spinner } from '@chakra-ui/react'
 import { Input } from '@chakra-ui/react'
-import DisplayJohn from './components/DisplayJohn';
-import { JohnProfile } from './components/DisplayJohn';
+import  DisplayJohn, { JohnProfile } from './components/DisplayJohn';
 
 function App() {
   return (
